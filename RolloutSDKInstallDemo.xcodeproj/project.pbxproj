@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2DEA1531D9E3EE0006587CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEA1521D9E3EE0006587CC /* main.m */; };
+		C2DEA1561D9E3EE0006587CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEA1551D9E3EE0006587CC /* AppDelegate.m */; };
+		C2DEA1591D9E3EE0006587CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEA1581D9E3EE0006587CC /* ViewController.m */; };
+		C2DEA15C1D9E3EE0006587CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DEA15A1D9E3EE0006587CC /* Main.storyboard */; };
+		C2DEA15E1D9E3EE0006587CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DEA15D1D9E3EE0006587CC /* Assets.xcassets */; };
+		C2DEA1611D9E3EE0006587CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DEA15F1D9E3EE0006587CC /* LaunchScreen.storyboard */; };
+		C2DEA16C1D9E3EE0006587CC /* RolloutSDKInstallDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEA16B1D9E3EE0006587CC /* RolloutSDKInstallDemoTests.m */; };
+		C2DEA1771D9E3EE0006587CC /* RolloutSDKInstallDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEA1761D9E3EE0006587CC /* RolloutSDKInstallDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2DEA1681D9E3EE0006587CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2DEA1461D9E3EE0006587CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2DEA14D1D9E3EE0006587CC;
+			remoteInfo = RolloutSDKInstallDemo;
+		};
+		C2DEA1731D9E3EE0006587CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2DEA1461D9E3EE0006587CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2DEA14D1D9E3EE0006587CC;
+			remoteInfo = RolloutSDKInstallDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2DEA14E1D9E3EE0006587CC /* RolloutSDKInstallDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RolloutSDKInstallDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DEA1521D9E3EE0006587CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2DEA1541D9E3EE0006587CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2DEA1551D9E3EE0006587CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2DEA1571D9E3EE0006587CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2DEA1581D9E3EE0006587CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2DEA15B1D9E3EE0006587CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2DEA15D1D9E3EE0006587CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2DEA1601D9E3EE0006587CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2DEA1621D9E3EE0006587CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DEA1671D9E3EE0006587CC /* RolloutSDKInstallDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolloutSDKInstallDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DEA16B1D9E3EE0006587CC /* RolloutSDKInstallDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RolloutSDKInstallDemoTests.m; sourceTree = "<group>"; };
+		C2DEA16D1D9E3EE0006587CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DEA1721D9E3EE0006587CC /* RolloutSDKInstallDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolloutSDKInstallDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DEA1761D9E3EE0006587CC /* RolloutSDKInstallDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RolloutSDKInstallDemoUITests.m; sourceTree = "<group>"; };
+		C2DEA1781D9E3EE0006587CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2DEA14B1D9E3EE0006587CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DEA1641D9E3EE0006587CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DEA16F1D9E3EE0006587CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2DEA1451D9E3EE0006587CC = {
+			isa = PBXGroup;
+			children = (
+				C2DEA1501D9E3EE0006587CC /* RolloutSDKInstallDemo */,
+				C2DEA16A1D9E3EE0006587CC /* RolloutSDKInstallDemoTests */,
+				C2DEA1751D9E3EE0006587CC /* RolloutSDKInstallDemoUITests */,
+				C2DEA14F1D9E3EE0006587CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2DEA14F1D9E3EE0006587CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEA14E1D9E3EE0006587CC /* RolloutSDKInstallDemo.app */,
+				C2DEA1671D9E3EE0006587CC /* RolloutSDKInstallDemoTests.xctest */,
+				C2DEA1721D9E3EE0006587CC /* RolloutSDKInstallDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2DEA1501D9E3EE0006587CC /* RolloutSDKInstallDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEA1541D9E3EE0006587CC /* AppDelegate.h */,
+				C2DEA1551D9E3EE0006587CC /* AppDelegate.m */,
+				C2DEA1571D9E3EE0006587CC /* ViewController.h */,
+				C2DEA1581D9E3EE0006587CC /* ViewController.m */,
+				C2DEA15A1D9E3EE0006587CC /* Main.storyboard */,
+				C2DEA15D1D9E3EE0006587CC /* Assets.xcassets */,
+				C2DEA15F1D9E3EE0006587CC /* LaunchScreen.storyboard */,
+				C2DEA1621D9E3EE0006587CC /* Info.plist */,
+				C2DEA1511D9E3EE0006587CC /* Supporting Files */,
+			);
+			path = RolloutSDKInstallDemo;
+			sourceTree = "<group>";
+		};
+		C2DEA1511D9E3EE0006587CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEA1521D9E3EE0006587CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2DEA16A1D9E3EE0006587CC /* RolloutSDKInstallDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEA16B1D9E3EE0006587CC /* RolloutSDKInstallDemoTests.m */,
+				C2DEA16D1D9E3EE0006587CC /* Info.plist */,
+			);
+			path = RolloutSDKInstallDemoTests;
+			sourceTree = "<group>";
+		};
+		C2DEA1751D9E3EE0006587CC /* RolloutSDKInstallDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEA1761D9E3EE0006587CC /* RolloutSDKInstallDemoUITests.m */,
+				C2DEA1781D9E3EE0006587CC /* Info.plist */,
+			);
+			path = RolloutSDKInstallDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2DEA14D1D9E3EE0006587CC /* RolloutSDKInstallDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DEA17B1D9E3EE0006587CC /* Build configuration list for PBXNativeTarget "RolloutSDKInstallDemo" */;
+			buildPhases = (
+				C2DEA14A1D9E3EE0006587CC /* Sources */,
+				C2DEA14B1D9E3EE0006587CC /* Frameworks */,
+				C2DEA14C1D9E3EE0006587CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RolloutSDKInstallDemo;
+			productName = RolloutSDKInstallDemo;
+			productReference = C2DEA14E1D9E3EE0006587CC /* RolloutSDKInstallDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2DEA1661D9E3EE0006587CC /* RolloutSDKInstallDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DEA17E1D9E3EE0006587CC /* Build configuration list for PBXNativeTarget "RolloutSDKInstallDemoTests" */;
+			buildPhases = (
+				C2DEA1631D9E3EE0006587CC /* Sources */,
+				C2DEA1641D9E3EE0006587CC /* Frameworks */,
+				C2DEA1651D9E3EE0006587CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2DEA1691D9E3EE0006587CC /* PBXTargetDependency */,
+			);
+			name = RolloutSDKInstallDemoTests;
+			productName = RolloutSDKInstallDemoTests;
+			productReference = C2DEA1671D9E3EE0006587CC /* RolloutSDKInstallDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2DEA1711D9E3EE0006587CC /* RolloutSDKInstallDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DEA1811D9E3EE0006587CC /* Build configuration list for PBXNativeTarget "RolloutSDKInstallDemoUITests" */;
+			buildPhases = (
+				C2DEA16E1D9E3EE0006587CC /* Sources */,
+				C2DEA16F1D9E3EE0006587CC /* Frameworks */,
+				C2DEA1701D9E3EE0006587CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2DEA1741D9E3EE0006587CC /* PBXTargetDependency */,
+			);
+			name = RolloutSDKInstallDemoUITests;
+			productName = RolloutSDKInstallDemoUITests;
+			productReference = C2DEA1721D9E3EE0006587CC /* RolloutSDKInstallDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2DEA1461D9E3EE0006587CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Tencent;
+				TargetAttributes = {
+					C2DEA14D1D9E3EE0006587CC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 299MFJ63GP;
+						ProvisioningStyle = Automatic;
+					};
+					C2DEA1661D9E3EE0006587CC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 299MFJ63GP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2DEA14D1D9E3EE0006587CC;
+					};
+					C2DEA1711D9E3EE0006587CC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 299MFJ63GP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2DEA14D1D9E3EE0006587CC;
+					};
+				};
+			};
+			buildConfigurationList = C2DEA1491D9E3EE0006587CC /* Build configuration list for PBXProject "RolloutSDKInstallDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2DEA1451D9E3EE0006587CC;
+			productRefGroup = C2DEA14F1D9E3EE0006587CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2DEA14D1D9E3EE0006587CC /* RolloutSDKInstallDemo */,
+				C2DEA1661D9E3EE0006587CC /* RolloutSDKInstallDemoTests */,
+				C2DEA1711D9E3EE0006587CC /* RolloutSDKInstallDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2DEA14C1D9E3EE0006587CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DEA1611D9E3EE0006587CC /* LaunchScreen.storyboard in Resources */,
+				C2DEA15E1D9E3EE0006587CC /* Assets.xcassets in Resources */,
+				C2DEA15C1D9E3EE0006587CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DEA1651D9E3EE0006587CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DEA1701D9E3EE0006587CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2DEA14A1D9E3EE0006587CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DEA1591D9E3EE0006587CC /* ViewController.m in Sources */,
+				C2DEA1561D9E3EE0006587CC /* AppDelegate.m in Sources */,
+				C2DEA1531D9E3EE0006587CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DEA1631D9E3EE0006587CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DEA16C1D9E3EE0006587CC /* RolloutSDKInstallDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DEA16E1D9E3EE0006587CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DEA1771D9E3EE0006587CC /* RolloutSDKInstallDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2DEA1691D9E3EE0006587CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2DEA14D1D9E3EE0006587CC /* RolloutSDKInstallDemo */;
+			targetProxy = C2DEA1681D9E3EE0006587CC /* PBXContainerItemProxy */;
+		};
+		C2DEA1741D9E3EE0006587CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2DEA14D1D9E3EE0006587CC /* RolloutSDKInstallDemo */;
+			targetProxy = C2DEA1731D9E3EE0006587CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2DEA15A1D9E3EE0006587CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2DEA15B1D9E3EE0006587CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2DEA15F1D9E3EE0006587CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2DEA1601D9E3EE0006587CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2DEA1791D9E3EE0006587CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2DEA17A1D9E3EE0006587CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2DEA17C1D9E3EE0006587CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 299MFJ63GP;
+				INFOPLIST_FILE = RolloutSDKInstallDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.teg.RolloutSDKInstallDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2DEA17D1D9E3EE0006587CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 299MFJ63GP;
+				INFOPLIST_FILE = RolloutSDKInstallDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.teg.RolloutSDKInstallDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2DEA17F1D9E3EE0006587CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 299MFJ63GP;
+				INFOPLIST_FILE = RolloutSDKInstallDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.teg.RolloutSDKInstallDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RolloutSDKInstallDemo.app/RolloutSDKInstallDemo";
+			};
+			name = Debug;
+		};
+		C2DEA1801D9E3EE0006587CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 299MFJ63GP;
+				INFOPLIST_FILE = RolloutSDKInstallDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.teg.RolloutSDKInstallDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RolloutSDKInstallDemo.app/RolloutSDKInstallDemo";
+			};
+			name = Release;
+		};
+		C2DEA1821D9E3EE0006587CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 299MFJ63GP;
+				INFOPLIST_FILE = RolloutSDKInstallDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.teg.RolloutSDKInstallDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RolloutSDKInstallDemo;
+			};
+			name = Debug;
+		};
+		C2DEA1831D9E3EE0006587CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 299MFJ63GP;
+				INFOPLIST_FILE = RolloutSDKInstallDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.teg.RolloutSDKInstallDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RolloutSDKInstallDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2DEA1491D9E3EE0006587CC /* Build configuration list for PBXProject "RolloutSDKInstallDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DEA1791D9E3EE0006587CC /* Debug */,
+				C2DEA17A1D9E3EE0006587CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2DEA17B1D9E3EE0006587CC /* Build configuration list for PBXNativeTarget "RolloutSDKInstallDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DEA17C1D9E3EE0006587CC /* Debug */,
+				C2DEA17D1D9E3EE0006587CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2DEA17E1D9E3EE0006587CC /* Build configuration list for PBXNativeTarget "RolloutSDKInstallDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DEA17F1D9E3EE0006587CC /* Debug */,
+				C2DEA1801D9E3EE0006587CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2DEA1811D9E3EE0006587CC /* Build configuration list for PBXNativeTarget "RolloutSDKInstallDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DEA1821D9E3EE0006587CC /* Debug */,
+				C2DEA1831D9E3EE0006587CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2DEA1461D9E3EE0006587CC /* Project object */;
+}
